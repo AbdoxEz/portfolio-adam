@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Frontend Mentor | Single-page developer portfolio</title>
+  </head>
+  <body>
+    <div class="container-body">
+      <!-- HEADER -->
+      <!-- <div class="bg-right"><img src="images/pattern-rings.svg" alt="" /></div>
+      <div class="bg-left"><img src="images/pattern-circle.svg" alt="" /></div>
+      <div class="bg-down-left-ring">
+        <img src="images/rings-circle.svg" alt="" />
+      </div> -->
+      <header>
+        <div class="logo">adamkeyes</div>
+        <div class="socials">
+          <a href="#"><img src="./assets/images/icon-github.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/icon-frontend-mentor.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/icon-linkedin.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/icon-twitter.svg" alt="" /></a>
+        </div>
+      </header>
+      <!-- HERO SECTION -->
+      <main>
+        <section class="hero-section">
+          <div class="author-photo">
+            <picture>
+              <source
+                media="(min-width:992px)"
+                srcset="./assets/images/image-profile-desktop.webp"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="./assets/images/image-profile-tablet.webp"
+              />
+              <img src="./assets/images/image-profile-mobile.webp" alt="" />
+            </picture>
+          </div>
+          <!-- HERO TEXTS -->
+          <div class="hero-content">
+            <h1>
+              <span>Nice to</span>
+              <span>meet you! I'm</span>
+              <span class="h1-author-name">Adam Keyes</span>
+              <span>.</span>
+            </h1>
+            <p>
+              Based in the UK, I'm a front-end developer passionate about
+              building accessible web apps that users love.
+            </p>
+            <a href="">Contact me</a>
+            <div class="a-underline"></div>
+          </div>
+          <div class="hero-underline-outside">
+            <div class="hero-underline"></div>
+          </div>
+        </section>
+        <!-- END HERO SECTION -->
+        <!-- SKILLS -->
+        <section id="skills">
+          <div class="container-skills">
+            <div class="skill-item">
+              <h1>HTML</h1>
+              <p>4 Years Experience</p>
+            </div>
+            <div class="skill-item">
+              <h1>CSS</h1>
+              <p>4 Years Experience</p>
+            </div>
+            <div class="skill-item">
+              <h1>JavaScript</h1>
+              <p>4 Years Experience</p>
+            </div>
+            <div class="skill-item">
+              <h1>Accessibility</h1>
+              <p>4 Years Experienc</p>
+            </div>
+            <div class="skill-item">
+              <h1>React</h1>
+              <p>3 Years Experience</p>
+            </div>
+            <div class="skill-item">
+              <h1>Sass</h1>
+              <p>3 Years Experience</p>
+            </div>
+          </div>
+        </section>
+        <div class="skill-underline-outside">
+          <div class="skill-underline"></div>
+        </div>
+        <!-- END SKILL SECTION -->
+
+        <!-- PROJECTS -->
+        <section id="projects">
+          <div class="container-projects">
+            <div class="projects-title">
+              <div class="container-projects-title-a">
+                <h1>Projects</h1>
+                <div class="a">
+                  <a href="#">Contact me</a>
+                  <div class="underline-projects-a"></div>
+                </div>
+              </div>
+            </div>
+            <!-- item 1 -->
+            <div class="items-project-container">
+              <div class="item-project">
+                <picture>
+                  <source
+                    media="(min-width = 992px)"
+                    srcset="./assets/images/thumbnail-project-1-large.webp"
+                  />
+                  <source
+                    media="(min-width 76892px)"
+                    srcset="./assets/images/thumbnail-project-1-large.webp"
+                  />
+                  <img src="./assets/images/thumbnail-project-1-small.webp" alt="" />
+                </picture>
+                <div class="text-project">
+                  <h2>Design portfolio</h2>
+                  <p>
+                    HTML
+                    <span>CSS</span>
+                  </p>
+                  <div class="links-project">
+                    <a href="#">View project</a>
+                    <a href="#">View code</a>
+                  </div>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div class="item-project">
+                <picture>
+                  <source
+                    media="(min-width = 992px)"
+                    srcset="./assets/images/thumbnail-project-2-large.webp"
+                  />
+                  <source
+                    media="(min-width = 768px)"
+                    srcset="./assets/images/thumbnail-project-2-large.webp"
+                  />
+                  <img src="./assets/images/thumbnail-project-2-small.webp" alt="" />
+                </picture>
+                <div class="text-project">
+                  <h2>E-learning landing page</h2>
+                  <p>
+                    HTML
+                    <span>CSS</span>
+                  </p>
+                  <div class="links-project">
+                    <a href="#">View project</a>
+                    <a href="#">View code</a>
+                  </div>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="item-project">
+                <picture>
+                  <source
+                    media="(min-width = 992px)"
+                    srcset="./assets/images/thumbnail-project-3-large.webp"
+                  />
+                  <source
+                    media="(min-width =7682px)"
+                    srcset="./assets/images/thumbnail-project-3-large.webp"
+                  />
+                  <img src="./assets/images/thumbnail-project-3-small.webp" alt="" />
+                </picture>
+                <div class="text-project">
+                  <h2>Todo web app</h2>
+                  <p>
+                    HTML
+                    <span>CSS</span>
+                    JavaScript
+                  </p>
+                  <div class="links-project">
+                    <a href="#">View project</a>
+                    <a href="#">View code</a>
+                  </div>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="item-project">
+                <picture>
+                  <source
+                    media="(min-width = 992px)"
+                    srcset="./assets/images/thumbnail-project-4-large.webp"
+                  />
+                  <source
+                    media="(min-width =7682px)"
+                    srcset="./assets/images/thumbnail-project-4-large.webp"
+                  />
+                  <img src="./assets/images/thumbnail-project-4-small.webp" alt="" />
+                </picture>
+                <div class="text-project">
+                  <h2>Entertainment web app</h2>
+                  <p>
+                    HTML
+                    <span>CSS</span>
+                    JavaScript
+                  </p>
+                  <div class="links-project">
+                    <a href="#">View project</a>
+                    <a href="#">View code</a>
+                  </div>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="item-project">
+                <picture>
+                  <source
+                    media="(min-width = 992px)"
+                    srcset="./assets/images/thumbnail-project-5-large.webp"
+                  />
+                  <source
+                    media="(min-width = 768px)"
+                    srcset="./assets/images/thumbnail-project-5-large.webp"
+                  />
+                  <img src="./assets/images/thumbnail-project-5-small.webp" alt="" />
+                </picture>
+                <div class="text-project">
+                  <h2>Memory Game</h2>
+                  <p>
+                    HTML
+                    <span>CSS</span>
+                    JavaScript
+                  </p>
+                  <div class="links-project">
+                    <a href="#">View project</a>
+                    <a href="#">View code</a>
+                  </div>
+                </div>
+              </div>
+              <!-- item 6 -->
+              <div class="item-project">
+                <picture>
+                  <source
+                    media="(min-width = 992px)"
+                    srcset="./assets/images/thumbnail-project-6-large.webp"
+                  />
+                  <source media = "(min-width = 992px)"
+                  srcset=768ages/thumbnail-project-6-large.webp">
+                  <img src="./assets/images/thumbnail-project-6-small.webp" alt="" />
+                </picture>
+                <div class="text-project">
+                  <h2>Art gallery showcase</h2>
+                  <p>
+                    HTML
+                    <span>CSS</span>
+                    JavaScript
+                  </p>
+                  <div class="links-project">
+                    <a href="#">View project</a>
+                    <a href="#">View code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- END PROJECTS SECTION -->
+        <!-- CONTACT -->
+        <section id="contact">
+          <div class="container-contact">
+            <div class="contact-text">
+              <h1>Contact</h1>
+              <p>
+                I would love to hear about your project and how I could help.
+                Please fill in the form, and I'll get back to you as soon as
+                possible.
+              </p>
+            </div>
+            <div class="contact-form">
+              <form id="form" action="" method="">
+                <div class="form-control">
+                  <input type="text" id="name" placeholder="name" />
+                </div>
+                <div class="form-control">
+                  <input type="email" id="email" placeholder="email" />
+                  <small>error message</small>
+                </div>
+                <div class="form-control">
+                  <textarea id="message" cols="30" placeholder="message"></textarea>
+                </div>
+                <div class="form-control">
+                  <input
+                    class="submit-btn"
+                    type="submit"
+                    id="input-submit"
+                    value="send message"
+                  ></input>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="contact-underline-outside">
+            <div class="contact-underline"></div>
+          </div>
+        </section>
+        <!-- END CONTACT SECTION -->
+        <footer class="footer-socials">
+          <div class="logo">adamkeyes</div>
+          <div class="socials">
+            <a href="#"><img src="./assets/images/icon-github.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/icon-frontend-mentor.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/icon-linkedin.svg" alt="" /></a>
+          <a href="#"><img src="./assets/images/icon-twitter.svg" alt="" /></a>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="" href="/src/js/portfolio.js"></script>
+  </body>
+</html>
